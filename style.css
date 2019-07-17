@@ -1,18 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: black;
+}
 .container {
     display: flex;
-    justify-content: space-around;
-    height: 200px;
+    justify-content: space-between;
+    height: 300px;
     width: 500px;
-    background: black;
 }
 
 .pianoKey {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    height: 100px;
+    height: 200px;
     width: 40px;
     background: white;
     margin: 10px;
     border-radius: 5px
+}
+.pianoKey:hover {
+    cursor: pointer;
 }
